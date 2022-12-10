@@ -9,9 +9,7 @@ import Settings from "../pages/Settings";
 const Router = () => {
   return (
     <Routes>
-      <Route
-        path="/"
-        element={<Navigate to="/dashboard" element={<Dashboard />} />}
+      <Route path="/" element={<Navigate to="/dashboard" element={<Dashboard />} />}
       />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/bookings" element={<Bookings />} />

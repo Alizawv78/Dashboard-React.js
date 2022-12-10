@@ -87,11 +87,13 @@
   padding: 6px;
   border-radius: 5px;
 }
+
 @media (max-width: 720px) {
   .sidebar {
     width: 110px;
     padding: 0 10px;
   }
+  
   .nav__link,
   .sidebar__bottom span {
     font-size: 12px;
