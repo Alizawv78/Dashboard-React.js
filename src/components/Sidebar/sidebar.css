@@ -61,7 +61,7 @@
   column-gap: 5px;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .sidebar__bottom span {
@@ -91,5 +91,9 @@
   .sidebar {
     width: 110px;
     padding: 0 10px;
+  }
+  .nav__link,
+  .sidebar__bottom span {
+    font-size: 12px;
   }
 }
